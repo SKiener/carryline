@@ -13,3 +13,9 @@ ul { padding-left: 22px; }
 a { color: var(--akzent); }
 .stand, .fuss { color: var(--leise); }
 .fuss { margin-top: 48px; }
+.lead { font-size: 19px; color: var(--leise); }
+.knopf { display: inline-block; margin: 16px 0 4px; padding: 14px 28px; border-radius: 999px;
+  background: var(--akzent); color: #fff; font-weight: 700; text-decoration: none; }
+.bilder { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px; margin: 28px 0 8px; }
+.bilder img { width: 100%; max-width: 100%; height: auto; border-radius: 16px; display: block; }
+@media (max-width: 520px) { .bilder { grid-template-columns: minmax(0, 1fr); } }
